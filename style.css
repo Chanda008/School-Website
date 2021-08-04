@@ -29,10 +29,7 @@
     width: 200px;
     height: 200px;
 }
-.row::after{
-    clear: both;
-    display: table;
-}
+
 .travel_mainDiv{
     float: left;
     width: 33.33%;
@@ -65,4 +62,28 @@
 .pic_2{
     height: 330px;
     width: 330px;
+}
+.book{
+    cursor: pointer;
+}
+.book hr{
+    margin-bottom: 10px;
+}
+.modal-content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+h5{
+    padding: 10px;
 }
